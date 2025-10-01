@@ -1,0 +1,16 @@
+# Node  Vue
+frontendnode_modules
+frontenddist
+
+# .NET
+backendbin
+backendobj
+
+# Configuración sensible
+backendappsettings.Development.json
+backendappsettings.Local.json
+
+# VS Code  IDEs
+.vscode
+.user
+.suo
