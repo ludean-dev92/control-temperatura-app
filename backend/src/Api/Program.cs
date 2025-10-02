@@ -11,20 +11,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// EF Core SQL Server
+// EF Core SQL Server (solo para producción)
 builder.Services.AddDbContext<TemperatureDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+{
+    // Solo usar SQL Server si no hay un proveedor ya registrado (esto permite reemplazo en tests)
+    if (!options.IsConfigured)
+        options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+});
 
 // DI Services
 builder.Services.AddScoped<IFormatoService, FormatoService>();
 builder.Services.AddScoped<IReporteService, ReporteService>();
 
-
-// ✅ Configurar CORS para permitir llamadas desde el frontend
+// Configurar CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowVue",
-        b => b.WithOrigins("http://localhost:5173") // 👈 tu frontend Vite
+        b => b.WithOrigins("http://localhost:5173")
               .AllowAnyHeader()
               .AllowAnyMethod());
 });
@@ -43,3 +46,5 @@ app.UseCors("AllowVue");
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

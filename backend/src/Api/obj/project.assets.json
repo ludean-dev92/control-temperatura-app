@@ -4968,42 +4968,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xludean\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\FinancieroFF\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\Xludean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Api\\obj\\",
+      "projectPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\FinancieroFF\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Xludean\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\FinancieroFF\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\Application.csproj"
+            "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\Application.csproj"
             },
-            "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

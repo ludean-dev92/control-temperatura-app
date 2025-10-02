@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\Application.csproj": {}
+    "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\Application.csproj": {
+    "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Xludean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Application\\obj\\",
+        "projectPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\FinancieroFF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Xludean\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\FinancieroFF\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -82,28 +76,22 @@
         }
       }
     },
-    "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Xludean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Xludean\\Documents\\control-temperatura-app\\backend\\src\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\FinancieroFF\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FinancieroFF\\Documents\\controltemperaturaapp\\backend\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Xludean\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\FinancieroFF\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
