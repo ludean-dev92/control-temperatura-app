@@ -1,6 +1,7 @@
 using Infrastructure.Persistence;
 using Application.Interfaces;
 using Application.Services;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,8 @@ builder.Services.AddDbContext<TemperatureDbContext>(options =>
 
 // DI Services
 builder.Services.AddScoped<IFormatoService, FormatoService>();
+builder.Services.AddScoped<IReporteService, ReporteService>();
+
 
 // ✅ Configurar CORS para permitir llamadas desde el frontend
 builder.Services.AddCors(options =>

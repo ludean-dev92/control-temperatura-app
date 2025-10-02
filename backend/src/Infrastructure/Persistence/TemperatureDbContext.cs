@@ -22,5 +22,10 @@ namespace Infrastructure.Persistence
             modelBuilder.Entity<Formato>().ToTable("Formatos");
             modelBuilder.Entity<Registro>().ToTable("Registros");
         }
+
+        public async Task<List<T>> EjecutarSPAsync<T>(string spQuery) where T : class
+        {
+            return await this.Set<T>().FromSqlRaw(spQuery).ToListAsync();
+        }
     }
 }

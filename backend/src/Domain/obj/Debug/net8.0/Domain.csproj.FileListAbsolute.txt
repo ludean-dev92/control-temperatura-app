@@ -9,3 +9,15 @@ C:\Users\FinancieroFF\Documents\controltemperaturaapp\backend\src\Domain\obj\Deb
 C:\Users\FinancieroFF\Documents\controltemperaturaapp\backend\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\FinancieroFF\Documents\controltemperaturaapp\backend\src\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\FinancieroFF\Documents\controltemperaturaapp\backend\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Xludean\Documents\control-temperatura-app\backend\src\Domain\obj\Debug\net8.0\ref\Domain.dll

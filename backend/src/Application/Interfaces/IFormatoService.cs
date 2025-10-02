@@ -7,4 +7,5 @@ namespace Application.Interfaces
         Task<IEnumerable<Formato>> GetAllAsync();
         Task<Formato> CreateAsync(Formato formato);
     }
+  
 }

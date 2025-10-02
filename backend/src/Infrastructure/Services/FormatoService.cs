@@ -25,5 +25,10 @@ namespace Application.Services
             await _context.SaveChangesAsync();
             return formato;
         }
+
+    }
+
+    public class ReporteFormatoDto
+    {
     }
 }
