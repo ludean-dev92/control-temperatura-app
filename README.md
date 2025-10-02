@@ -90,18 +90,11 @@ http://localhost:5173
 - Exportar reporte a **Excel** o **PDF**
 
 ** Uso del reporte en Vue**
-
-- Selecciona **fecha inicio** y **fecha fin**.
-- Haz click en **Buscar** para ver los registros en tabla.
 - Haz click en **Exportar Excel** o **Exportar PDF** para descargar el reporte.
 
 ** Notas importantes**
 
 - Asegúrate de tener Docker corriendo antes de iniciar el backend.
-- Los campos de tiempo (`TimeSpan`) deben enviarse correctamente desde el frontend (`HH:mm`).
-- La conexión directa de frontend a la base de datos **no es segura**, todo pasa por el backend.
-- Puedes limpiar la contraseña en `appsettings.json` antes de subir a GitHub.
-- Incluye `.gitignore` para no subir `node_modules`, `bin/obj` y configuraciones locales sensibles.
 
 Autor:
 Luis Delgado
